@@ -32,12 +32,14 @@ const Layout = ({ children }) => (
         </Helmet>
 
  <Header siteTitle={data.site.siteMetadata.title} />
-        <div class="container">
 
-        <div>
+        <div class="container">
+ <div class="allure">
+<div class="pattern"></div>
+</div>
           {children}
 
-        </div>
+
         </div>
 
         <Footer />
