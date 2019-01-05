@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Lazy8',
+    title: 'Praxis',
   },
   pathPrefix: `/`,
   plugins: [
