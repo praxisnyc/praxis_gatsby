@@ -3,8 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Header from './header'
-import Footer from './footer'
+import Sidebar from './Sidebar'
 import './styles/style.scss'
 
 
@@ -30,19 +29,35 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
+        <div class=" limit up">
+<div class="container">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-9"></div>
+    </div>
+</div>
+</div>
 
- <Header siteTitle={data.site.siteMetadata.title} />
 
         <div class="container">
  <div class="allure">
 <div class="pattern"></div>
 </div>
-          {children}
+ <div class="row">
+      <Sidebar siteTitle={data.site.siteMetadata.title} />
+      <article class="col-md-9">
+        {children}
+      </article>
+    </div>
+
 
 
         </div>
 
-        <Footer />
+
+        <div class="limit down">
+
+</div>
       </>
     )}
   />

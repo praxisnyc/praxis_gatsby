@@ -1,0 +1,53 @@
+.allure {
+  @extend .container;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+    &:before, &:after {
+    background-color: white;
+    content: "";
+    display: block;
+    position: fixed;
+    height: $margin;
+    width: 100%;
+    z-index: 100;
+    left: 0;
+  }
+    &:before {
+    top: 0;
+  }
+  &:after {
+    bottom: 0;
+  }
+  background: linear-gradient(-45deg, $color-brand, lighten(#e2ace9, 10%));
+  background-size: 100% 100%;
+  -webkit-animation: allure 500ms ease infinite;
+  -moz-animation: allure 500ms ease infinite;
+  animation: allure 500ms ease infinite;
+  .pattern {
+    background-image: url(../../images/icon-bg.svg);
+    background-size: $pattern $pattern;
+    background-position: 0 $margin;
+    @extend .row;
+    height: 100%;
+  }
+
+
+}
+
+@-webkit-keyframes allure {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes allure {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes allure {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}

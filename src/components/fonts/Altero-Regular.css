@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Altero-Regular";
+    src: url("Altero-Regular.eot");
+    src: url("Altero-Regular.eot?#iefix") format("embedded-opentype"),
+         url("Altero-Regular.woff2") format("woff2"),
+         url("Altero-Regular.woff") format("woff"),
+         url("Altero-Regular.ttf") format("ttf"),
+         url("Altero-Regular.svg#Altero-Regular") format("svg");
+    font-style: normal;
+    font-weight: regular;
+}

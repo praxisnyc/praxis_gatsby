@@ -1,13 +1,19 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Footer = ({ siteTitle }) => (
-  <div>
+const Sidebar = ({ siteTitle }) => (
+  <aside class="col-md-3">
+    <header class="header">
+          <h1 class="title">
+        <Link to="/">
+          {siteTitle}
+        </Link>
+      </h1>
+    </header>
     <footer class="footer">
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugiat odit voluptates accusamus recusandae animi totam. Laudantium inventore nisi explicabo?</p>
     </footer>
-
-  </div>
+  </aside>
 )
 
-export default Footer
+export default Sidebar

@@ -1,10 +1,12 @@
 @import './node_modules/bootstrap/scss/bootstrap.scss';
 @import './node_modules/animatewithsass/animate.scss';
+@import './node_modules/tile/tile.scss';
 
 @import 'variables.scss';
 @import 'mixins.scss';
 @import 'layout.scss';
-@import 'animation.scss';
+@import 'allure.scss';
 
 @include font-face(Akrobat-Regular);
 @include font-face(Akrobat-Bold);
+@include font-face(Altero-Regular);
