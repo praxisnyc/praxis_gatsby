@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{143:function(e,a,t){"use strict";t.r(a);var i=t(0),n=t.n(i),s=(t(148),t(149));a.default=function(){return n.a.createElement(s.a,null,n.a.createElement("h2",null,"Mastodon"),n.a.createElement("p",null,"Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, vitae cum, totam at alias, quas officiis animi dolor aliquam voluptas omnis corporis deserunt placeat ratione blanditiis itaque repellendus autem. Necessitatibus."))}}}]);
+//# sourceMappingURL=component---src-pages-tools-mastodon-js-b7f10df125a9ab28ddde.js.map
