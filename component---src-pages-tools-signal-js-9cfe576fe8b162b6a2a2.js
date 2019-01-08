@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{146:function(e,u,a){"use strict";a.r(u);var n=a(0),t=a.n(n),i=(a(149),a(150));u.default=function(){return t.a.createElement(i.a,null,t.a.createElement("h2",null,"Signal"),t.a.createElement("p",null,"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque quae numquam ad, atque magnam corporis possimus tempore rerum nostrum cum molestiae, deleniti autem sunt quidem facere odio doloribus, illum fuga?"))}}}]);
+//# sourceMappingURL=component---src-pages-tools-signal-js-9cfe576fe8b162b6a2a2.js.map
