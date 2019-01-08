@@ -4,7 +4,11 @@ body {
 }
 
 .word {
-  color: $color-brand;
+  color: $ColorBrand;
+}
+
+.container {
+  max-width: 900px;
 }
 
 .title {
@@ -14,7 +18,7 @@ body {
     displaY: inline-block;
     }
     &:nth-of-type(2n) {
-      color: $color-brand;
+      color: $ColorBrand;
       }
     }
 }
@@ -50,7 +54,7 @@ ul, ol {
 }
 
 a {
-  color: $color-brand;
+  color: $ColorBrand;
 }
 
 h1, h2, h3, h4, h5, .title {

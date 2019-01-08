@@ -20,7 +20,7 @@
   &:after {
     bottom: 0;
   }
-  background: linear-gradient(-45deg, $color-brand, lighten(#e2ace9, 10%));
+  background: linear-gradient(-45deg, $ColorBrand, lighten(#e2ace9, 10%));
   background-size: 100% 100%;
   -webkit-animation: allure 500ms ease infinite;
   -moz-animation: allure 500ms ease infinite;
