@@ -48,7 +48,7 @@ animation: hide-and-seek  1s linear infinite alternate;
     background-color: map-get($color, bg);
     content: "";
     display: block;
-    height: $margin;
+    height: $margin + 2;
     width: 100%;
     position: fixed;
     z-index: 100;

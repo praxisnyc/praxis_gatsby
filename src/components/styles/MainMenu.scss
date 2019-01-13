@@ -1,19 +1,38 @@
-.collapse-body {
+.collapse-group {
+  background-color: map-get($color, bg);
+  margin-bottom: 45px;
+}
+  .collapse-body {
+    &:hover, &.opened {
+          .collapse-toggle .description {
+height: 50px;
+    }
+    }
  .collapse-toggle {
   border-top: solid 5px map-get($color, fg);
   display: block;
+    margin: 10px 0 !important;
   &:before {
     content: "";
     display: block;
-    background-color: map-get($color, fg);
     height: 10px;
     width: 20%;
+    background-color: map-get($color, fg);
     margin-top: -10px;
+  }
+  .description {
+    display: block;
+    color: map-get($color, fg);
+    line-height: 130%;
+    height: 0;
+    overflow: hidden;
+    @include transition;
+  }
+  &:hover {
+    text-decoration: none;
   }
   .title {
     display: inline-block;
-    margin: 10px 0 !important;
-    background-color: #fff;
     li {
       display: inline;
       color: map-get($color, fg);
@@ -40,7 +59,6 @@ margin-left: ((100% / 5) * 4);
   .collapse {
 .content {
      padding-bottom: 20px;
-     background-color: map-get($color, bg);
   }
 }
 }

@@ -27,6 +27,8 @@ body {
 aside {
  display: grid;
  grid-template-rows: 1fr 1fr;
+ height:  100vh;
+ padding-bottom: 100px;
  .title a {
   color: map-get($color, fg);
   div {
@@ -40,11 +42,11 @@ aside {
  }
  footer.footer {
   align-self: end;
+  position: fixed;
   font-size: map-get($font-size, sig);
+  margin-bottom: $margin * 2;
   p {
     margin: 0;
-    width: 70%;
-    margin-bottom: 15px;
   }
  }
 }
@@ -58,7 +60,11 @@ ul, ol {
   @include reset(all);
   @include reset(list);
 }
-
+section.description {
+  p {
+    margin-bottom: $margin;
+  }
+}
 
 .description, aside {
   .title {
@@ -71,10 +77,16 @@ p {
 }
 }
 
-aside .title {
+aside {
+  .title {
     position: fixed;
-    width: 200px;
 
+}
+.title, footer {
+    position: fixed;
+    width: 150px;
+
+}
 }
 a {
   color: map-get($color, brand);
