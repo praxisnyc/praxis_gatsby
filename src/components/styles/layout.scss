@@ -59,6 +59,7 @@ ul, ol {
   @include reset(list);
 }
 
+
 .description, aside {
   .title {
     font-size: map-get($font-size, title);
@@ -70,6 +71,11 @@ p {
 }
 }
 
+aside .title {
+    position: fixed;
+    width: 200px;
+
+}
 a {
   color: map-get($color, brand);
 }

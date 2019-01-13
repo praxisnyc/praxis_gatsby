@@ -39,9 +39,11 @@ const Layout = ({ children }) => (
 </div>
 
 
-        <div class="container">
+        <div class="container all">
  <div class="allure">
-<div class="pattern"></div>
+
+ <div class="border">
+</div>
 </div>
  <div class="row">
       <Sidebar siteTitle={data.site.siteMetadata.title} />
