@@ -1,11 +1,11 @@
 .collapse-body {
  .collapse-toggle {
-  border-top: solid 5px black;
+  border-top: solid 5px map-get($color, fg);
   display: block;
   &:before {
     content: "";
     display: block;
-    background-color: black;
+    background-color: map-get($color, fg);
     height: 10px;
     width: 20%;
     margin-top: -10px;
@@ -16,11 +16,11 @@
     background-color: #fff;
     li {
       display: inline;
-      color: black;
+      color: map-get($color, fg);
 
-      font-size: 35px;
+      font-size: map-get($font-size, subtitle);
       &:nth-of-type(2n) {
-        color: $ColorBrand;
+        color: map-get($color, brand);
       }
     }
   }
@@ -40,6 +40,7 @@ margin-left: ((100% / 5) * 4);
   .collapse {
 .content {
      padding-bottom: 20px;
+     background-color: map-get($color, bg);
   }
 }
 }

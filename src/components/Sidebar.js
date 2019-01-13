@@ -6,7 +6,9 @@ const Sidebar = ({ siteTitle }) => (
     <header class="header">
           <h1 class="title">
         <Link to="/">
-          {siteTitle}
+        <div>Pra</div>
+        <div>xis<span>.</span></div>
+        <div><span>nyc</span></div>
         </Link>
       </h1>
     </header>

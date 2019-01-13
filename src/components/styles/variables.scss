@@ -1,7 +1,21 @@
-$font-text: Akrobat-Regular;
-$font-title: Altero-Regular;
+$font: (
+  text:  Akrobat-Regular,
+  title: Altero-Regular
+  );
 
 $pattern: 20px;
 $margin: 30px;
+$container: 900px;
 
-$ColorBrand: #691a73;
+$font-size: (
+  sig: 12px,
+  text: .9rem,
+  subtitle: 35px,
+  title: 60px
+  );
+
+$color: (
+  fg: #000,
+  bg: #fff,
+  brand: #691a73
+  );

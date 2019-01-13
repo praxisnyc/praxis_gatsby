@@ -1,14 +1,15 @@
 body {
-  font-family: $font-text;
+  font-family: map-get($font, text);
   margin: $margin 0;
+  background-color: map-get($color, bg);
 }
 
 .word {
-  color: $ColorBrand;
+  color: map-get($color, brand);
 }
 
 .container {
-  max-width: 900px;
+  max-width: $container;
 }
 
 .title {
@@ -18,7 +19,7 @@ body {
     displaY: inline-block;
     }
     &:nth-of-type(2n) {
-      color: $ColorBrand;
+      color: map-get($color, brand);
       }
     }
 }
@@ -26,13 +27,24 @@ body {
 aside {
  display: grid;
  grid-template-rows: 1fr 1fr;
+ .title a {
+  color: map-get($color, fg);
+  div {
+    background-color: map-get($color, bg);
+    display: inline-block;
+  }
+
+  span {
+    color: map-get($color, brand);
+  }
+ }
  footer.footer {
   align-self: end;
-  font-size: 12px;
+  font-size: map-get($font-size, sig);
   p {
-    background-color: #fff;
     margin: 0;
     width: 70%;
+    margin-bottom: 15px;
   }
  }
 }
@@ -47,34 +59,44 @@ ul, ol {
   @include reset(list);
 }
 
-.description .title {
-    font-size: 60px;
+.description, aside {
+  .title {
+    font-size: map-get($font-size, title);
   line-height: 55px;
   padding-bottom: 40px !important;
 }
+p {
+  background-color: map-get($color, bg);
+}
+}
 
 a {
-  color: $ColorBrand;
+  color: map-get($color, brand);
 }
 
 h1, h2, h3, h4, h5, .title {
-  font-family: $font-title;
+  font-family: map-get($font, title);
   text-transform: uppercase;
 }
 
 
 
 .next, .previous {
-&:before {
-  font-size: 70%;
-float: right;
+&:after {
+  font-size: map-get($font-size, sig);
+  margin-left: 5px;
+  background-color: map-get($color, brand);
+  color: map-get($color, bg);
+  padding: 0 5px;
+  @include radius(20px);
+  font-weight: bold;
 }
 }
 
-.next:before {
+.next:after {
   content: "next";
 }
-.previous:before {
+.previous:after {
   content: "previous";
 }
 
@@ -103,7 +125,7 @@ background-position: center 0;
     z-index: 100;
     .row *:before {
       display: block;
-      background-color: black;
+      background-color: map-get($color, fg);
       content: "";
       height: 10px;
     }

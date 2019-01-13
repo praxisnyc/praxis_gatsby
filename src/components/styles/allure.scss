@@ -1,11 +1,18 @@
 .allure {
-  @extend .container;
   height: 100%;
   position: fixed;
+  width: 100%;
+  @extend .container;
+  // max-width: $allure;
+  // @media screen and (max-width: $allure) {
+  //   width: 100%;
+  //   max-width: 100%;
+  //   margin: 0 30px;
+  // }
   top: 0;
   z-index: -1;
     &:before, &:after {
-    background-color: white;
+    background-color: map-get($color, bg);
     content: "";
     display: block;
     position: fixed;
@@ -20,7 +27,7 @@
   &:after {
     bottom: 0;
   }
-  background: linear-gradient(-45deg, $ColorBrand, lighten(#e2ace9, 10%));
+  background: linear-gradient(-45deg, map-get($color, brand), lighten(#e2ace9, 10%));
   background-size: 100% 100%;
   -webkit-animation: allure 500ms ease infinite;
   -moz-animation: allure 500ms ease infinite;
@@ -31,6 +38,7 @@
     background-position: 0 $margin;
     @extend .row;
     height: 100%;
+    border-right: solid 20px map-get($color, bg);
   }
 
 

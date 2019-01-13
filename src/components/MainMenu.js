@@ -51,15 +51,15 @@ class Example extends Component {
         >
        <div class="content">
        <ul>
-      <li class="next">
+      <li>
         <a class="next" href="/study/nomadism">#nomadism</a>
         <p>Evading the state</p>
       </li>
-      <li class="previous">
+      <li>
         <a class="previous" href="/study/hyperreal">#hyperreal</a>
         <p>Thriving in a heavily mediated society</p>
       </li>
-      <li class="previous">
+      <li>
         <a class="previous" href="/study/queerfam">#queerfam</a>
         <p>New Configurations of Family: Towards Non-oppressive Relationships of Love and Care</p>
       </li>
