@@ -1,0 +1,22 @@
+{
+  "editions": [
+    {
+      "title": "nomadism",
+      "link": "nomadism/",
+      "state": "next",
+      "description": "Evading the state"
+    },
+       {
+      "title": "hyperreal",
+      "link": "hyperreal/",
+      "state": "previous",
+      "description": "Thriving in a heavily mediated society"
+    },
+    {
+      "title": "queerfam",
+      "link": "queerfam/",
+      "state": "previous",
+      "description": "New Configurations of Family: Towards Non-oppressive Relationships of Love and Care"
+    }
+  ]
+}

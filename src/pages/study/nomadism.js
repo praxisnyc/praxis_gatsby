@@ -17,7 +17,7 @@ const IndexPage = () => (
     <p class="meeting">Wednesday, TBD, 7-9pm</p>
     <ol>
       <li>
-        <h3>1227: Treatise on Nomadology: The War Machine</h3>
+        <h3>Treatise on Nomadology: The War Machine</h3>
         <ul>
           <li>A Thousand Plateaus</li>
           <li>Deleuze and Guattari</li>
@@ -31,7 +31,7 @@ const IndexPage = () => (
     <p class="meeting">Wednesday, TBD, 7-9pm</p>
     <ol>
       <li>
-        <h3>7000 B.C.: Apparatus of Capture</h3>
+        <h3>Apparatus of Capture</h3>
         <ul>
           <li>A Thousand Plateaus</li>
           <li>Deleuze and Guattari</li>
@@ -45,7 +45,7 @@ const IndexPage = () => (
     <p class="meeting">Wednesday, TBD, 7-9pm</p>
     <ol>
       <li>
-        <h3>1440: The Smooth and the Striated</h3>
+        <h3>The Smooth and the Striated</h3>
         <ul>
           <li>A Thousand Plateaus</li>
           <li>Deleuze and Guattari</li>
