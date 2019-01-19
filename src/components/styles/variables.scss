@@ -1,6 +1,7 @@
 $font: (
-  text:  Akrobat-Regular,
-  title: Altero-Regular
+  text:  RenoMono,
+  title: Altero-Regular,
+  mono: RenoMono
   );
 
 $pattern: 20px;
@@ -10,6 +11,7 @@ $container: 900px;
 $font-size: (
   sig: 12px,
   text: .9rem,
+  number: 20px,
   subtitle: 35px,
   title: 60px
   );

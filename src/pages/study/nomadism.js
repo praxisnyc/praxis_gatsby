@@ -5,18 +5,22 @@ import Layout from '../../components/layout'
 
 const IndexPage = () => (
 <Layout>
-  <h2>#nomadism</h2>
-  <p class="slogan">Evading the state</p>
-  <p class="about">This study circle will meet in Brooklyn every other Wednesday for a total of 4 sessions.</p>
+  <article class="article">
+
+<header class="header">
+    <h1>nomadism</h1>
+  <p>Evading the state</p>
+  <p>This study circle will meet in Brooklyn every other Wednesday for a total of 4 sessions.</p>
+</header>
 
   <section>
-    <h3>Session 1</h3>
-    <p>Wednesday, TBD, 7-9pm</p>
+    <p class="meeting">Wednesday, TBD, 7-9pm</p>
     <ol>
       <li>
-        <h4>A Thousand Plateaus by Deleuze and Guattari</h4>
+        <h3>1227: Treatise on Nomadology: The War Machine</h3>
         <ul>
-          <li>1227: Treatise on Nomadology: The War Machine</li>
+          <li>A Thousand Plateaus</li>
+          <li>Deleuze and Guattari</li>
           <li> <a href="https://libcom.org/files/A%20Thousand%20Plateaus.pdf">download PDF</a></li>
         </ul>
       </li>
@@ -24,13 +28,13 @@ const IndexPage = () => (
 
   </section>
     <section>
-    <h3>Session 2</h3>
-    <p>Wednesday, TBD, 7-9pm</p>
+    <p class="meeting">Wednesday, TBD, 7-9pm</p>
     <ol>
       <li>
-        <h4>A Thousand Plateaus by Deleuze and Guattari</h4>
+        <h3>7000 B.C.: Apparatus of Capture</h3>
         <ul>
-          <li>7000 B.C.: Apparatus of Capture</li>
+          <li>A Thousand Plateaus</li>
+          <li>Deleuze and Guattari</li>
           <li> <a href="https://libcom.org/files/A%20Thousand%20Plateaus.pdf">download PDF</a></li>
         </ul>
       </li>
@@ -38,13 +42,13 @@ const IndexPage = () => (
   </section>
 
     <section>
-    <h3>Session 3</h3>
-    <p>Wednesday, TBD, 7-9pm</p>
+    <p class="meeting">Wednesday, TBD, 7-9pm</p>
     <ol>
       <li>
-        <h4>A Thousand Plateaus by Deleuze and Guattari</h4>
+        <h3>1440: The Smooth and the Striated</h3>
         <ul>
-          <li>1440: The Smooth and the Striated</li>
+          <li>A Thousand Plateaus</li>
+          <li>Deleuze and Guattari</li>
           <li> <a href="https://libcom.org/files/A%20Thousand%20Plateaus.pdf">download PDF</a></li>
         </ul>
       </li>
@@ -53,16 +57,17 @@ const IndexPage = () => (
 
 
         <section>
-    <h3>Session 4</h3>
-    <p>Wednesday, TBD, 7-9pm</p>
+    <p class="meeting">Wednesday, TBD, 7-9pm</p>
     <ol>
       <li>
-        <h4>TBD</h4>
+        <h3>TBD</h3>
       </li>
     </ol>
   </section>
 
-  </Layout>
+
+  </article>
+</Layout>
   )
 
   export default IndexPage

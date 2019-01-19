@@ -47,9 +47,9 @@ const Layout = ({ children }) => (
 </div>
  <div class="row">
       <Sidebar siteTitle={data.site.siteMetadata.title} />
-      <article class="col-md-9">
+      <div class="col-md-9">
         {children}
-      </article>
+      </div>
     </div>
 
 

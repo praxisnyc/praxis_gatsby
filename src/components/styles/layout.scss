@@ -4,6 +4,44 @@ body {
   background-color: map-get($color, bg);
 }
 
+article.article {
+
+    section {
+    background-color: rgba(map-get($color, bg), .4);
+       margin-bottom: $margin;
+  }
+  section, header.header {
+    h1, h2, h3, h4, p, li {
+      background-color: map-get($color, bg);
+      display: inline;
+      padding: 5px 0;
+      &:after {
+        content: "";
+        display: block;
+      }
+    }
+    .meeting {
+      font-family: map-get($font, mono);
+    }
+  }
+    header.header {
+    h1 {
+    font-size: map-get($font-size, title);
+
+  }
+  h1, p {
+    margin-bottom: 0;
+
+  }
+  p:after {
+       content: "";
+        display: block;
+      height: $margin;
+    }
+
+    }
+}
+
 .word {
   color: map-get($color, brand);
 }
@@ -15,13 +53,13 @@ body {
 .title {
   li {
     span {
-    background-color: #fff;
-    displaY: inline-block;
+      background-color: #fff;
+      displaY: inline-block;
     }
     &:nth-of-type(2n) {
       color: map-get($color, brand);
-      }
     }
+  }
 }
 
 aside {
@@ -39,19 +77,19 @@ aside {
   span {
     color: map-get($color, brand);
   }
- }
- footer.footer {
+}
+footer.footer {
   align-self: end;
   font-size: map-get($font-size, sig);
   p {
     margin: 0;
   }
- }
+}
 }
 
 
 header.header h1.title {
-@include reset(all);
+  @include reset(all);
 }
 
 ul, ol {
@@ -67,21 +105,31 @@ section.description {
 .description, aside {
   .title {
     font-size: map-get($font-size, title);
-  line-height: 55px;
-  padding-bottom: 12px !important;
-}
-p {
-  background-color: map-get($color, bg);
-}
+    line-height: 55px;
+    padding-bottom: 12px !important;
+  }
+  p {
+    background-color: map-get($color, bg);
+  }
 }
 
 aside {
-.title, footer {
+  .title, footer {
     width: 150px;
+  }
 }
-}
-a {
+a:not(.collapse-toggle) {
   color: map-get($color, brand);
+  @include transition;
+  text-decoration: none;
+  border-bottom: dotted 1px map-get($color, brand);
+  &:hover {
+    color: map-get($color, fg);
+      border-bottom: dotted 2px map-get($color, fg);
+
+  text-decoration: none;
+  }
+
 }
 
 h1, h2, h3, h4, h5, .title {
@@ -92,15 +140,16 @@ h1, h2, h3, h4, h5, .title {
 
 
 .next, .previous {
-&:after {
-  font-size: map-get($font-size, sig);
-  margin-left: 5px;
-  background-color: map-get($color, brand);
-  color: map-get($color, bg);
-  padding: 0 5px;
-  @include radius(20px);
-  font-weight: bold;
-}
+  &:after {
+    font-size: map-get($font-size, sig);
+    margin-left: 5px;
+    background-color: map-get($color, brand);
+    color: map-get($color, bg);
+    padding: 0 5px;
+    @include radius(20px);
+    font-weight: bold;
+    float: right;
+  }
 }
 
 .next:after {
@@ -113,32 +162,32 @@ h1, h2, h3, h4, h5, .title {
 .design {
   z-index: 10000;
   background-color: #fff;
-background-image: url(../../images/design.png);
-background-size: 1140px 1079px;
-background-repeat: no-repeat;
-background-position: center 0;
- top: 0;
- left: 0;
- width: 100%;
- height: 1079px;
- position: absolute;
+  background-image: url(../../images/design.png);
+  background-size: 1140px 1079px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1079px;
+  position: absolute;
 
 }
 
 .limit {
-    @include tile(lines-down-c, white, 5);
-    content: "";
+  @include tile(lines-down-c, white, 5);
+  content: "";
+  display: block;
+  position: fixed;
+  height: $margin;
+  width: 100%;
+  z-index: 100;
+  .row *:before {
     display: block;
-    position: fixed;
-    height: $margin;
-    width: 100%;
-    z-index: 100;
-    .row *:before {
-      display: block;
-      background-color: map-get($color, fg);
-      content: "";
-      height: 10px;
-    }
+    background-color: map-get($color, fg);
+    content: "";
+    height: 10px;
+  }
   &.up {
     top: 0;
   }

@@ -41,7 +41,7 @@ class Example extends Component {
    <li>Study</li>
    <li>Circle</li>
     </ul>
-    <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste voluptatibus perspiciatis impedit quod expedita rerum, quam reprehenderit nulla, labore ex.</span>
+    <span class="description">Iste voluptatibus perspiciatis impedit quod expedita rerum, quam reprehenderit nulla, labore ex.</span>
     </a>
         <Collapse
           isOpen={this.state.collapse}
@@ -75,7 +75,7 @@ class Example extends Component {
    <li>Discovery</li>
    <li>Circle</li>
     </ul>
-    <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur provident error maxime illum ipsa quaerat, nobis, totam voluptas id nostrum!</span>
+    <span class="description">Pariatur provident error maxime illum ipsa quaerat, nobis, totam voluptas id nostrum!</span>
     </a>
         <Collapse
           isOpen={this.state.collapse}
@@ -94,7 +94,7 @@ class Example extends Component {
    <li>For</li>
    <li>Autonomy</li>
     </ul>
-    <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo tenetur ab, fugit officiis asperiores magni aliquid quia modi officia laborum?</span>
+    <span class="description">Nemo tenetur ab, fugit officiis asperiores magni aliquid quia modi officia laborum?</span>
     </a>
         <Collapse
           isOpen={this.state.collapse}
@@ -132,7 +132,7 @@ class Example extends Component {
    <li>About</li>
    <li>Us</li>
     </ul>
-    <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, in, porro. Voluptate exercitationem sint nam. Repudiandae neque obcaecati nostrum aut.</span>
+    <span class="description">Cum, in, porro. Voluptate exercitationem sint nam. Repudiandae neque obcaecati nostrum aut.</span>
     </a>
         <Collapse
           isOpen={this.state.collapse}
@@ -151,7 +151,7 @@ class Example extends Component {
    <li>The</li>
    <li>Others</li>
     </ul>
-    <span class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta repellendus voluptates eius vel! Dolorem atque, velit dolorum natus quos esse?</span>
+    <span class="description">Dicta repellendus voluptates eius vel! Dolorem atque, velit dolorum natus quos esse?</span>
     </a>
         <Collapse
           isOpen={this.state.collapse}
