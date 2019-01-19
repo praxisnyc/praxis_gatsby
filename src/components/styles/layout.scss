@@ -42,9 +42,7 @@ aside {
  }
  footer.footer {
   align-self: end;
-  position: fixed;
   font-size: map-get($font-size, sig);
-  margin-bottom: $margin * 2;
   p {
     margin: 0;
   }
@@ -70,7 +68,7 @@ section.description {
   .title {
     font-size: map-get($font-size, title);
   line-height: 55px;
-  padding-bottom: 40px !important;
+  padding-bottom: 12px !important;
 }
 p {
   background-color: map-get($color, bg);
@@ -78,14 +76,8 @@ p {
 }
 
 aside {
-  .title {
-    position: fixed;
-
-}
 .title, footer {
-    position: fixed;
     width: 150px;
-
 }
 }
 a {
