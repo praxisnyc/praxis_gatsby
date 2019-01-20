@@ -3,7 +3,6 @@ import { UncontrolledCollapse } from 'reactstrap';
 
 const Example = () => (
 <div class="collapse-group">
-
   <section class="collapse-body">
     <a href="#" class="collapse-toggle"  id="study">
       <ul class="title">

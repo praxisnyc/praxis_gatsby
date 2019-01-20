@@ -63,12 +63,18 @@ article.article {
 }
 
 aside {
- display: grid;
- grid-template-rows: 1fr 1fr;
  height:  100vh;
- padding-bottom: 100px;
- .title a {
+ .title a.logo {
   color: map-get($color, fg);
+  display: inline-block;
+  margin-bottom: $margin;
+  @include transition;
+  &:hover {
+    color: map-get($color, brand);
+    span {
+      color: map-get($color, fg);
+    }
+  }
   div {
     background-color: map-get($color, bg);
     display: inline-block;
@@ -76,10 +82,10 @@ aside {
 
   span {
     color: map-get($color, brand);
+    @include transition;
   }
 }
 footer.footer {
-  align-self: end;
   font-size: map-get($font-size, sig);
   p {
     margin: 0;
@@ -118,7 +124,7 @@ aside {
     width: 150px;
   }
 }
-a:not(.collapse-toggle) {
+a:not(.collapse-toggle):not(.logo) {
   color: map-get($color, brand);
   @include transition;
   text-decoration: none;

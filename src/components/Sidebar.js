@@ -5,7 +5,7 @@ const Sidebar = ({ siteTitle }) => (
   <aside class="col-md-3">
     <header class="header">
           <h1 class="title">
-        <Link to="/">
+        <Link to="/" className="logo">
         <div>Pra</div>
         <div>xis<span>.</span></div>
         <div><span>nyc</span></div>
