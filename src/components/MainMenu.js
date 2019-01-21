@@ -9,7 +9,7 @@ const Example = () => (
        <li>Study</li>
        <li>Circle</li>
      </ul>
-     <span class="description">Iste voluptatibus perspiciatis impedit quod expedita rerum, quam reprehenderit nulla, labore ex.</span>
+     <span class="description">We need to get educated: A bottom-up way to find understanding of the seminal issues that shape our future.</span>
    </a>
    <UncontrolledCollapse toggler="#study" className="content">
      <ul>
@@ -35,7 +35,7 @@ const Example = () => (
      <li>Circle</li>
      </ul>
      <span class="description">
-      Pariatur provident error maxime illum ipsa quaerat, nobis, totam voluptas id nostrum!
+      Short design exercises to distill recommendations with people affected by the topic.
      </span>
    </a>
    <UncontrolledCollapse toggler="#discovery" className="content">
@@ -49,7 +49,7 @@ Pending
        <li>for</li>
        <li>Autonomy</li>
      </ul>
-     <span class="description">Nemo tenetur ab, fugit officiis asperiores magni aliquid quia modi officia laborum?</span>
+     <span class="description">Evade the algorithm rat-race of surveillance capitalism with community-owned communication tools.</span>
    </a>
    <UncontrolledCollapse toggler="#tools" className="content">
 <ul>
@@ -78,7 +78,7 @@ Pending
        <li>About</li>
        <li>Us</li>
      </ul>
-     <span class="description">Cum, in, porro. Voluptate exercitationem sint nam. Repudiandae neque obcaecati nostrum aut.</span>
+     <span class="description">We're a group of queer people gathering to understand challenges and opportunities of our digital society .</span>
    </a>
    <UncontrolledCollapse toggler="#about" className="content">
 Pending
@@ -91,26 +91,33 @@ Pending
        <li>the</li>
        <li>Others</li>
      </ul>
-     <span class="description">Iste voluptatibus perspiciatis impedit quod expedita rerum, quam reprehenderit nulla, labore ex.</span>
+     <span class="description">Find the like-minded groups and organizations we share orbit with.</span>
    </a>
    <UncontrolledCollapse toggler="#others" className="content">
 
            <ul>
       <li>
-        <a target="others" href="https://colet.space/">CoLET</a>
-        <p>Natus minima laudantium amet illo? Iste tenetur facilis, molestiae totam.</p>
+        <a target="others" href="https://colet.space/">CoLET: The Collective for Liberation, Ecology, and Technology</a>
       </li>
       <li>
         <a target="others" href="https://www.nycmesh.net/">NYC Mesh</a>
-        <p>Iste inventore commodi in voluptates odit reiciendis natus distinctio consectetur!</p>
+
+      </li>
+      <li>
+        <a target="others" href="https://www.techworkescoalition.org/">Tech Workers Coalition</a>
+
+      </li>
+       <li>
+        <a target="others" href="https://www.ainowinstitute.org">AI NOW</a>
+
+      </li>
+      <li><a target="others" href="https://ajlunited.org">Algorithmic Justice League</a>
       </li>
         <li>
         <a target="others" href="https://datasociety.net/">Data + Society</a>
-        <p>Iste inventore commodi in voluptates odit reiciendis natus distinctio consectetur!</p>
       </li>
       <li>
         <a target="others" href="http://technoqueers.com/">TechnoQueers</a>
-        <p>Odio eligendi ipsum odit corporis quis quasi quas voluptates quam.</p>
       </li>
     </ul>
 

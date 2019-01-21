@@ -12,7 +12,6 @@ const IndexPage = () => (
    <li><span>Your</span></li>
    <li><span>Attention</span></li>
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
 </section>
   <MainMenu />
 
